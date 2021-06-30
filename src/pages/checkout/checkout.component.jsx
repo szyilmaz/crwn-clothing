@@ -14,7 +14,9 @@ import "./checkout.styles.scss";
 //extensible coding architecture, predictible, reusable
 
 const CheckoutPage = ({ cartItems, total }) => (
+ 
   <div className="checkout-page">
+     <span><b>CHECKOUT</b></span>
     <div className="checkout-header">
       <div className="header-block">
         <span>Product</span>
